@@ -4,7 +4,7 @@ const router = express.Router()
 
 const contact_controller = require('../controllers/contact');
 
-//Post Method
+//All Routes
 //Post Method
 router.post('/post', contact_controller.postContact)
 
